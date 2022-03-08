@@ -1,0 +1,82 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+padding: 0;
+margin: 0;
+
+}
+#navbar{
+    width:98%;
+
+    margin: auto;
+    height: 80px;
+    margin-top: 10px;
+    /* background-color: grey; */
+    background: rgb(54,166,181);
+background: linear-gradient(90deg, rgba(54,166,181,1) 0%, rgba(60,135,162,1) 35%, rgba(67,99,141,1) 100%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: right;
+}
+#nav_Option{
+    width:30%;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    text-align:center;
+    margin: 25px ;
+    font-size:20px;
+}
+#nav_Option a{
+    color:white;
+
+}
+#nav_Option a:hover{
+    color:blue;
+}
+
+#signup-form-div{
+    width: 350px;
+    /* height: 500px; */
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 3px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+::placeholder{
+    color:black;
+    font-size: 15px;
+    text-align: center;
+}
+    input {
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        width: 75%;
+        height: 40px;
+        background-color: rgb(233, 233, 233);
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding-left: 10px;
+      }
+      
+      #submit {
+        background-color: #73C8A9;
+        text-align: center;
+        padding: 0px;
+        color: white;
+        font-size: 16px;
+      }
+      
+h1{
+    text-align: center;
+    font-weight:500;
+    color: skyblue;
+    margin-top:40px;
+}
